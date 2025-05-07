@@ -1,13 +1,13 @@
-# print(format("Welcome", "10s"),end= "#")
-# print(format(111,"4d"),end="#")
-# # print(format(924.656,"3.2f"))
-# def of(x):
-#     yield x+1
-#     print("Tst")
-#     yield x+2
-# g = of(10)
-# print(next(g))
-# print(next(g))
+print(format("Welcome", "10s"),end= "#")
+print(format(111,"4d"),end="#")
+print(format(924.656,"3.2f"))
+def of(x):
+    yield x+1
+    print("Tst")
+    yield x+2
+g = of(10)
+print(next(g))
+print(next(g))
 
 # a = 10
 # of()
